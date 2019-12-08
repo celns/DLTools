@@ -6,7 +6,7 @@
 conda config --show-sources
 
 #删除所有配置的源，即重置为默认源
-conda config --remove channels
+conda config --remove-key channels
 
 #删除特定源,这里Lunaria就是特定源地址
 conda config --remove channels Lunaria
