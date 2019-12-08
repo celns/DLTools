@@ -3,7 +3,7 @@
 #
 
 #查看当前源
-conda --show-source
+conda --show-sources
 
 #删除所有配置的源，即重置为默认源
 conda --remove channels
