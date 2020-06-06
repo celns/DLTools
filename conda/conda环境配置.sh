@@ -16,3 +16,6 @@ conda activate Lunaria
 
 #注销当前环境，返回到base环境
 conda deactivate
+
+#删除某个环境
+conda remove -n Lunaria --all
